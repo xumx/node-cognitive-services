@@ -97,7 +97,7 @@ const bingWebSearch = ({
             .then(makeRequest({
                 operation,
                 parameters,
-                null,
+                body: null,
                 API_KEY
             }));
 
